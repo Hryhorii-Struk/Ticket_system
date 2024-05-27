@@ -21,8 +21,6 @@ class UserModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     is_active = db.Column(db.Boolean, default=True)
 
-
-
     def __repr__(self):
         return f'<UserModel(id={self.id}, is_active={self.is_active})>'
 

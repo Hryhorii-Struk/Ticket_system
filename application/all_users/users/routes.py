@@ -64,3 +64,7 @@ def analysts():
 @login_required
 def users():
     return redirect(url_for('urls.py.index'))
+
+
+def user_bp():
+    return None
