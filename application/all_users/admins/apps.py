@@ -4,9 +4,10 @@ from flask_sqlalchemy import SQLAlchemy
 from application.all_users.users import routes
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'your-database-uri'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'jjj'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['JWT_SECRET_KEY'] = 'your-secret-key'
+app.config['JWT_SECRET_KEY'] = 'join'
+
 
 db = SQLAlchemy(app)
 
