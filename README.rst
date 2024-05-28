@@ -17,7 +17,7 @@ See the changelog for changes and additional steps to take when upgrading.
 
 Requirements
 ------------
-Prior to installing and running Flicket please read these requirements.
+Prior to installing and running  Ticket system please read these requirements.
 
 * Python =>3.90
 
