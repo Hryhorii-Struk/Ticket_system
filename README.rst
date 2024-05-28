@@ -28,6 +28,6 @@ Prior to installing and running Flicket please read these requirements.
 Production Environment
 ----------------------
 
-To serve Flicket within a production environment webservers such as Apache
+To serve Ticket system within a production environment webservers such as Apache
 or nginx are typically used. See the documentation for how to install Apache
 on Windows.
