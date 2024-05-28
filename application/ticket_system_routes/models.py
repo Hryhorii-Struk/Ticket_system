@@ -10,3 +10,8 @@ class BigAutoField:
 
 class DateTimeField:
     pass
+
+
+class Ticket:
+    def to_dict(self):
+        pass
